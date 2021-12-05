@@ -1,0 +1,47 @@
+:root {
+  /* CSS HEX */
+  --light-sea-green: #07aca0ff;
+  --light-sea-green-2: #17bcb0ff;
+  --medium-turquoise: #27ccc0ff;
+  --cyclamen: #f07ca0ff;
+  --spanish-blue: #1a6db2ff;
+  --onyx: #2d3032ff;
+  --eerie-black: #1d2022ff;
+  --granny-smith-apple: #b8d798ff;
+  --liver-chestnut: #947650ff;
+  --spanish-blue: #1a6db2ff;
+}
+.carousel-inner {
+  width: 100%; /* width of container */
+  min-height: 200px; /* height of container */
+
+  overflow: hidden;
+  /* border: 5px solid black; */
+  /* border: 5px solid black; */
+}
+.carousel-inner img {
+  margin: -25% 0px;
+}
+
+.footer-logo img {
+  width: 100%;
+}
+
+/* backgrounds */
+.bg-onyx {
+  background-color: var(--onyx);
+}
+.bg-eerie-black {
+  background: var(--eerie-black);
+}
+
+/* text colors */
+
+/* special colors */
+
+.footer-nav .nav-item {
+  color: var(--medium-turquoise);
+}
+.col-about i {
+  color: var(--medium-turquoise);
+}

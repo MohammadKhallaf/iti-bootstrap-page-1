@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment ~13</title>
+
+    <!-- stylesheets -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+      defer
+    ></script>
+  </head>
+  <body>
+    <!-- header -->
+
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light px-0">
+      <!-- container -->
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand">HOSTO</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#myNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="myNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Layouts</a></li>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link">Elements</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Portfolio</a>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid mx-0 px-0">
+      <!-- body -->
+
+      <!-- carousel -->
+      <div class="mx-0 px-0">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./res/img/screen1.jpg" class="d-block w-100" alt="" />
+              <div class="carousel-caption d-none d-md-block"></div>
+            </div>
+            <div class="carousel-item">
+              <img src="./res/img/screen2.jpg" class="d-block w-100" alt="" />
+              <div class="carousel-caption d-none d-md-block"></div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./res/img/screen3.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- features -->
+      <div class="container-fluid mx-4 mt-4 px-4">
+        <div class="row">
+          <div class="col bg-info">
+            <i class="bi bi-hand-thumbs-up"></i>
+            <h1>Secure & Reliable</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+              molestias voluptatem esse velit necessitatibus perferendis fugit
+              minima, laudantium omnis obcaecati laboriosam aperiam porro amet
+              adipisci eum quos delectus architecto magnam.
+            </p>
+          </div>
+          <div class="col bg-warning">
+            <i class="bi bi-cursor-fill"></i>
+            <h1>Quick & Super Fast</h1>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Consectetur, est eveniet fuga dolor iste velit officia inventore
+            eligendi dolore, enim, quidem ipsam laudantium voluptatem temporibus
+            vero sit explicabo id? Reprehenderit!
+          </div>
+          <div class="col bg-danger">
+            <i class="bi bi-chat-quote-fill fs-1"></i>
+            <h1>Customer Support</h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quia
+            quidem aliquam commodi neque. Dolores voluptatibus voluptates
+            similique ea explicabo magnam quasi doloribus sed, iste natus
+            incidunt, harum repellat magni.
+          </div>
+        </div>
+      </div>
+
+      <!-- pricing -->
+      <div class="container-fluid mx-0 pt-4">
+        <h1>Hosto Plans & Pricing</h1>
+        <p>Our hosting plans in detail. Choose the right for you</p>
+        <!-- cards -->
+        <div class="row row-cols-4 g-4" style="min-height: 18rem">
+          <!-- WEB hosting -->
+          <div class="col h-100">
+            <div class="card">
+              <div class="card-header text-center">Web hosting</div>
+              <div class="card-body">
+                <div class="container">9/month</div>
+                <div class="container px-0">
+                  <ul class="list-unstyled mx-0">
+                    <!-- item-1 -->
+                    <li class="list-item">
+                      <i class="bi bi-check text-success fs-2 align-middle"></i>
+                      <span class="align-middle"
+                        ><span class="fw-bold"> 10GB </span>Storage Space
+                      </span>
+                    </li>
+                    <!-- item-2 -->
+                    <li class="list-item">
+                      <i class="bi bi-x text-danger fs-2 align-middle"></i>
+                      <span class="align-middle"
+                        ><span class="fw-bold"> 15GB </span>Bandwidth
+                      </span>
+                    </li>
+                    <li class="list-item">
+                      <i class="bi bi-x text-danger fs-2 align-middle"></i>
+                      <span class="align-middle"
+                        ><span class="fw-bold"> Unimited </span>FTP & Email
+                      </span>
+                    </li>
+                    <li class="list-item">
+                      <i class="bi bi-x text-danger fs-2 align-middle"></i>
+                      <span class="align-middle"
+                        ><span class="fw-bold"> Free </span>Domain
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- card footer -->
+              <div class="card-footer">Sign Up Now</div>
+            </div>
+          </div>
+
+          <!-- RES hosting -->
+          <div class="col h-100">
+            <div class="card">
+              <div class="card-header">Reseller Hosting</div>
+              <div class="card-body">
+                <div class="container">9/month</div>
+                <div class="container px-0">
+                  <ul class="list-unstyled mx-0">
+                    <!-- item-1 -->
+                    <li class="list-item">
+                      <i class="bi bi-check text-success fs-2 align-middle"></i>
+                      <span class="align-middle"
+                        ><span class="fw-bold"> 10GB </span>Storage Space
+                      </span>
+                    </li>
+                    <!-- item-2 -->
+                    <li class="list-item">
+                      <i class="bi bi-check text-success fs-2 align-middle"></i>
+                      <span class="align-middle"
+                        ><span class="fw-bold"> 15GB </span>Bandwidth
+                      </span>
+                    </li>
+                    <li class="list-item">
+                      <i class="bi bi-x text-danger fs-2 align-middle"></i>
+                      <span class="align-middle"
+                        ><span class="fw-bold"> Unimited </span>FTP & Email
+                      </span>
+                    </li>
+                    <li class="list-item">
+                      <i class="bi bi-x text-danger fs-2 align-middle"></i>
+                      <span class="align-middle"
+                        ><span class="fw-bold"> Free </span>Domain
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- card footer -->
+
+              <div class="card-footer">Sign Up Now</div>
+            </div>
+          </div>
+          <!-- VPS hosting -->
+          <div class="col h-100">
+            <div class="card">
+              <div class="card-header">Vps Hosting</div>
+              <div class="card-body">
+                <div class="container">9/month</div>
+                <div class="container px-0">
+                  <ul class="list-unstyled mx-0">
+                    <!-- item-1 -->
+                    <li class="list-item">
+                      <i class="bi bi-check text-success fs-2 align-middle"></i>
+                      <span class="align-middle"
+                        ><span class="fw-bold"> 10GB </span>Storage Space
+                      </span>
+                    </li>
+                    <!-- item-2 -->
+                    <li class="list-item">
+                      <i class="bi bi-check text-success fs-2 align-middle"></i>
+                      <span class="align-middle"
+                        ><span class="fw-bold"> 15GB </span>Bandwidth
+                      </span>
+                    </li>
+                    <li class="list-item">
+                      <i class="bi bi-check text-success fs-2 align-middle"></i>
+                      <span class="align-middle"
+                        ><span class="fw-bold"> Unimited </span>FTP & Email
+                      </span>
+                    </li>
+                    <li class="list-item">
+                      <i class="bi bi-x text-danger fs-2 align-middle"></i>
+                      <span class="align-middle"
+                        ><span class="fw-bold"> Free </span>Domain
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- card footer -->
+
+              <div class="card-footer">Sign Up Now</div>
+            </div>
+          </div>
+
+          <!-- DOMAIN names -->
+          <div class="col h-100">
+            <div class="card">
+              <div class="card-header">Domain Names</div>
+
+              <div class="card-body">
+                <div class="container">9/month</div>
+                <div class="container px-0">
+                  <ul class="list-unstyled mx-0">
+                    <!-- item-1 -->
+                    <li class="list-item">
+                      <i class="bi bi-check text-success fs-2 align-middle"></i>
+                      <span class="align-middle"
+                        ><span class="fw-bold"> 10GB </span>Storage Space
+                      </span>
+                    </li>
+                    <!-- item-2 -->
+                    <li class="list-item">
+                      <i class="bi bi-check text-success fs-2 align-middle"></i>
+                      <span class="align-middle"
+                        ><span class="fw-bold"> 15GB </span>Bandwidth
+                      </span>
+                    </li>
+                    <li class="list-item">
+                      <i class="bi bi-check text-success fs-2 align-middle"></i>
+                      <span class="align-middle"
+                        ><span class="fw-bold"> Unimited </span>FTP & Email
+                      </span>
+                    </li>
+                    <li class="list-item">
+                      <i class="bi bi-check text-success fs-2 align-middle"></i>
+                      <span class="align-middle"
+                        ><span class="fw-bold"> Free </span>Domain
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- card footer -->
+
+              <div class="card-footer">Sign Up Now</div>
+            </div>
+          </div>
+          <!--  -->
+        </div>
+      </div>
+      <!-- key features -->
+      <div class="container-fluid mx-4 pt-4">
+        <h1>Key Features of <span>Hosto</span></h1>
+        <p>Our hosting plans in detail. Choose the right for you</p>
+        <div class="container">
+          <div class="row row-cols-3 g-5">
+            <!-- cell-1 -->
+            <div class="col">
+              <div class="card position-relative mt-3 w-100">
+                <div class="card-header">Web Hosting</div>
+                <div class="position-absolute translate-middle start-100 lh-1">
+                  <div
+                    class="
+                      border border-2 border-secondary
+                      p-2
+                      rounded-circle
+                      bg-light
+                      overflow-hidden
+                    "
+                  >
+                    <span>starting</span>
+                    <span class="text-danger fw-bold">$1.99</span>
+                    <span>/month</span>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <div class="card-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Reprehenderit ducimus, nihil fugiat eaque quia omnis ullam
+                    nam recusandae saepe incidunt voluptatibus pariatur corporis
+                    natus accusamus excepturi consequatur iusto. Temporibus,
+                    architecto.
+                  </div>
+                  <button class="btn btn-secondary">Read more</button>
+                </div>
+              </div>
+            </div>
+            <!-- /cell-1 -->
+            <!-- cell-1 -->
+            <div class="col">
+              <div class="card position-relative mt-3 w-100">
+                <div class="card-header">Web Hosting</div>
+                <div class="position-absolute translate-middle start-100 lh-1">
+                  <div
+                    class="
+                      border border-2 border-secondary
+                      p-2
+                      rounded-circle
+                      bg-light
+                      overflow-hidden
+                    "
+                  >
+                    <span>starting</span>
+                    <span class="text-danger fw-bold">$1.99</span>
+                    <span>/month</span>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <div class="card-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Reprehenderit ducimus, nihil fugiat eaque quia omnis ullam
+                    nam recusandae saepe incidunt voluptatibus pariatur corporis
+                    natus accusamus excepturi consequatur iusto. Temporibus,
+                    architecto.
+                  </div>
+                  <button class="btn btn-secondary">Read more</button>
+                </div>
+              </div>
+            </div>
+            <!-- /cell-1 -->
+
+            <!-- cell-1 -->
+            <div class="col">
+              <div class="card position-relative mt-3 w-100">
+                <div class="card-header">Web Hosting</div>
+                <div class="position-absolute translate-middle start-100 lh-1">
+                  <div
+                    class="
+                      border border-2 border-secondary
+                      p-2
+                      rounded-circle
+                      bg-light
+                      overflow-hidden
+                    "
+                  >
+                    <span>starting</span>
+                    <span class="text-danger fw-bold">$1.99</span>
+                    <span>/month</span>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <div class="card-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Reprehenderit ducimus, nihil fugiat eaque quia omnis ullam
+                    nam recusandae saepe incidunt voluptatibus pariatur corporis
+                    natus accusamus excepturi consequatur iusto. Temporibus,
+                    architecto.
+                  </div>
+                  <button class="btn btn-secondary">Read more</button>
+                </div>
+              </div>
+            </div>
+            <!-- /cell-1 -->
+
+            <!-- cell-1 -->
+            <div class="col">
+              <div class="card position-relative mt-3 w-100">
+                <div class="card-header">Web Hosting</div>
+                <div class="position-absolute translate-middle start-100 lh-1">
+                  <div
+                    class="
+                      border border-2 border-secondary
+                      p-2
+                      rounded-circle
+                      bg-light
+                      overflow-hidden
+                    "
+                  >
+                    <span>starting</span>
+                    <span class="text-danger fw-bold">$1.99</span>
+                    <span>/month</span>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <div class="card-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Reprehenderit ducimus, nihil fugiat eaque quia omnis ullam
+                    nam recusandae saepe incidunt voluptatibus pariatur corporis
+                    natus accusamus excepturi consequatur iusto. Temporibus,
+                    architecto.
+                  </div>
+                  <button class="btn btn-secondary">Read more</button>
+                </div>
+              </div>
+            </div>
+            <!-- /cell-1 -->
+
+            <!-- cell-1 -->
+            <div class="col">
+              <div class="card position-relative mt-3 w-100">
+                <div class="card-header">Web Hosting</div>
+                <div class="position-absolute translate-middle start-100 lh-1">
+                  <div
+                    class="
+                      border border-2 border-secondary
+                      p-2
+                      rounded-circle
+                      bg-light
+                      overflow-hidden
+                    "
+                  >
+                    <span>starting</span>
+                    <span class="text-danger fw-bold">$1.99</span>
+                    <span>/month</span>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <div class="card-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Reprehenderit ducimus, nihil fugiat eaque quia omnis ullam
+                    nam recusandae saepe incidunt voluptatibus pariatur corporis
+                    natus accusamus excepturi consequatur iusto. Temporibus,
+                    architecto.
+                  </div>
+                  <button class="btn btn-secondary">Read more</button>
+                </div>
+              </div>
+            </div>
+            <!-- /cell-1 -->
+
+            <!-- cell-1 -->
+            <div class="col">
+              <div class="card position-relative mt-3 w-100">
+                <div class="card-header">Web Hosting</div>
+                <div class="position-absolute translate-middle start-100 lh-1">
+                  <div
+                    class="
+                      border border-2 border-secondary
+                      p-2
+                      rounded-circle
+                      bg-light
+                      overflow-hidden
+                    "
+                  >
+                    <span>starting</span>
+                    <span class="text-danger fw-bold">$1.99</span>
+                    <span>/month</span>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <div class="card-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Reprehenderit ducimus, nihil fugiat eaque quia omnis ullam
+                    nam recusandae saepe incidunt voluptatibus pariatur corporis
+                    natus accusamus excepturi consequatur iusto. Temporibus,
+                    architecto.
+                  </div>
+                  <button class="btn btn-secondary">Read more</button>
+                </div>
+              </div>
+            </div>
+            <!-- /cell-1 -->
+          </div>
+        </div>
+      </div>
+      <!-- logos -->
+      <div class="row">
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+      </div>
+      <!-- logos end -->
+
+      <!-- <|----|> -->
+
+      <!-- footer -->
+      <footer>
+        <nav></nav>
+        <footer>
+<!-- ===<| FOOTER NAV |>=== -->
+          <nav class="navbar navbar-expand  bottom-0 mb-0 pb-0 w-100">
+            <div class="container-fluid bg-eerie-black mx-0 px-5 fs-5">
+            
+                <div class="navbar navbar-brand text-light">
+                    <span>Hosto &COPY; </span>
+                    <a href="" class="nav-item nav-link text-light">Privacy Policy</a>
+                </div>
+        
+              <div class="navbar-nav footer-nav ">
+                <a href="" class="nav-item nav-link"><i class="bi bi-facebook"></i></a>
+                <a href="" class="nav-item nav-link"><i class="bi bi-twitter"></i></a>
+                <a href="" class="nav-item nav-link"><i class="bi bi-behance"></i></a>
+                <a href="" class="nav-item nav-link"><i class="bi bi-discord"></i></a>
+                <a href="" class="nav-item nav-link"><i class="bi bi-dribbble"></i></a>
+                <a href="" class="nav-item nav-link"><i class="bi bi-instagram"></i></a>
+                <a href="" class="nav-item nav-link"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+        </nav>
+        <!-- ===|> FOOTER NAV <|=== -->
+        </footer>
+      </footer>
+    
+  </body>
+</html>
